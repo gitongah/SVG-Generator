@@ -38,7 +38,7 @@ const questions = [
   
 ];
 
-// TODO: Create a function to write README file
+// TODO: Create a function to write logo.svg
 
 function writeToFile(fileName, data) {
 
