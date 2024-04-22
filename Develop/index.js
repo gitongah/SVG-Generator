@@ -11,8 +11,8 @@ const questions = [
     name:'svgText',
     default: 'SVG',
     validate: ((answer)=>{
-      if( answer.length > 3){
-        return console.log('please select text not more than 3 characters!! ')
+      if( answer.length > 3 ){
+        return console.log(' Please select text not more than 3 characters!! ')
       }
       return true;
     })

@@ -22,9 +22,9 @@ function svgGenerator(data){
     triangle.setColor(data.shapeColor);
     svg += triangle.render();
   }
-  
+
   let svgText = `<text x="150" y="125" font-size="52" text-anchor="middle" fill="${data.textColor}">${data.svgText}</text>
-  </svg>`
+</svg>`
 
   svg += svgText;
 
