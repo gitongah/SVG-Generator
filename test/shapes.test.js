@@ -1,6 +1,6 @@
-const {Circle, Triangle, Square} = require('./shapes');
+const {Circle, Triangle, Square} = require('../utils/shapes');
 
-
+//tests for the circle class
 describe('Circle', () =>{
   describe('setColor', ()=>{
     it('should take the color and fill it to the circle', () =>{
@@ -10,7 +10,7 @@ describe('Circle', () =>{
     });
   });
 });
-
+//tests for the triangle class
 describe('Triangle', () =>{
   describe('setColor', ()=>{
     it('should take the color and fill it to the circle', () =>{
@@ -20,7 +20,7 @@ describe('Triangle', () =>{
     });
   });
 });
-
+//tests for the square class
 describe('Square', () =>{
   describe('setColor', ()=>{
     it('should take the color and fill it to the circle', () =>{

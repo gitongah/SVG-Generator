@@ -3,7 +3,7 @@ const {Circle, Triangle, Square} = require('./shapes')
 const circle = new Circle();
 const triangle = new Triangle();
 const square = new Square();
-
+//function to generate the svg
 function svgGenerator(data){
 
   let svg =`<svg version="1.1"

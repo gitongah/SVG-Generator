@@ -1,6 +1,4 @@
-// have a parent class shape
-
-//have 3 class children circle, triangle, square
+// parent class shape
 class Shapes{
   constructor(color){
     this.color = '';
@@ -9,6 +7,7 @@ class Shapes{
       this.color = (color);
     }
   }
+  //have 3  children circle, triangle, square
 class Circle extends Shapes{
   render(){
     return `<circle cx="150" cy="100" r="80" fill="${this.color}" />`

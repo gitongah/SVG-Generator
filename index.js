@@ -1,9 +1,9 @@
-// TODO: Include packages needed for this application
+//  packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const colors = require('colors');
 const svgGenerator = require('./utils/svgGenerator');
-// TODO: Create an array of questions for user input
+//  an array of questions for user input
 const questions = [
   {
     type: 'input',
@@ -38,7 +38,7 @@ const questions = [
   
 ];
 
-// TODO: Create a function to write logo.svg
+// function to write logo.svg
 
 function writeToFile(fileName, data) {
 
@@ -47,7 +47,7 @@ function writeToFile(fileName, data) {
   });
 }
 
-// TODO: Create a function to initialize app
+// function to initialize app
 function init() {
   console.log('Initialization of the application....');
 
